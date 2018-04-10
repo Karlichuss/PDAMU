@@ -1,0 +1,11 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class SolicitarRegistroAction : MonoBehaviour, IAction
+{
+    public void Execute()
+    {
+        GameManager.ninioNoLogueado_Facade.SolicitarRegistro();
+    }
+}
