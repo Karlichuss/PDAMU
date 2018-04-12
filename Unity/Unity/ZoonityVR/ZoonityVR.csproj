@@ -13,13 +13,11 @@
     <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <TargetFrameworkProfile>Unity Subset v3.5</TargetFrameworkProfile>
-    <CompilerResponseFile>
-    </CompilerResponseFile>
+    <CompilerResponseFile></CompilerResponseFile>
     <UnityProjectType>Game:1</UnityProjectType>
     <UnityBuildTarget>Android:13</UnityBuildTarget>
     <UnityVersion>2017.2.1f1</UnityVersion>
-    <RootNamespace>
-    </RootNamespace>
+    <RootNamespace></RootNamespace>
     <LangVersion>4</LangVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
@@ -348,7 +346,7 @@
     <Compile Include="Assets\ProCore\ProBuilder\API Examples\Procedural Mesh\ExtrudeRandomEdges.cs" />
     <Compile Include="Assets\ProCore\ProBuilder\API Examples\Runtime Editing\RuntimeEdit.cs" />
     <Compile Include="Assets\ProCore\ProBuilder\API Examples\Vertex Colors\HighlightNearestFace.cs" />
-    <Compile Include="Assets\Scripts\Actions\Interface\Action.cs" />
+    <Compile Include="Assets\Scripts\Actions\Interface\IAction.cs" />
     <Compile Include="Assets\Scripts\Actions\NinioNoLogueado\ConfirmarInicioSesionAction.cs" />
     <Compile Include="Assets\Scripts\Actions\NinioNoLogueado\ConfirmarRegistroAction.cs" />
     <Compile Include="Assets\Scripts\Actions\NinioNoLogueado\SolicitarInicioSesionAction.cs" />
@@ -358,6 +356,7 @@
     <Compile Include="Assets\Scripts\Facade\Implementation\NinioLogueado_Facade.cs" />
     <Compile Include="Assets\Scripts\Facade\Implementation\NinioNoLogueado_Facade.cs" />
     <Compile Include="Assets\Scripts\Facade\Implementation\NPC_Facade.cs" />
+    <Compile Include="Assets\Scripts\Facade\Interfaces\NinioLogueadoFacadeDelegate.cs" />
     <Compile Include="Assets\Scripts\Facade\Interfaces\NinioNoLogueadoFacadeDelegate.cs" />
     <Compile Include="Assets\Scripts\System\GameManager.cs" />
     <Compile Include="Assets\Scripts\Utils\JsonUtils.cs" />
@@ -402,9 +401,6 @@
     <None Include="Assets\ProCore\ProBuilder\Shader\pb_VertexPicker.shader" />
     <None Include="Assets\ProCore\ProBuilder\Shader\pb_VertexShader.shader" />
     <None Include="Assets\ProCore\ProBuilder\readme.txt" />
-    <None Include="Assets\StreamingAssets\Text\es\IniciarSesionMenu.json" />
-    <None Include="Assets\StreamingAssets\Text\es\PrincipalMenu.json" />
-    <None Include="Assets\StreamingAssets\Text\es\RegistrarseMenu.json" />
     <None Include="Assets\VRKeyboard\README.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

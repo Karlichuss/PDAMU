@@ -12,6 +12,9 @@ public class GameManager : MonoBehaviour
     // Instancia de la fachada NPC_Facade
     public static NPC_Facade npc_Facade = new NPC_Facade();
 
+    // Determina si el jugador en este momento se mueve o no
+    public static bool movimiento;
+
     // Nombre del jugador a recordar
     public static string nombreJugaador;
     // Clave del PlayerPref que recuerda el nombre del jugador
