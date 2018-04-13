@@ -16,7 +16,7 @@ public class GameManager : MonoBehaviour
     public static bool movimiento;
 
     // Nombre del jugador a recordar
-    public static string nombreJugaador;
+    public static string nombreJugador;
     // Clave del PlayerPref que recuerda el nombre del jugador
     public const string NOMBRE_JUGADOR = "NOMBRE";
     // Constante con la URL de la Web API que devuelve el nombre en caso de que exista, sino, una cadena vacia

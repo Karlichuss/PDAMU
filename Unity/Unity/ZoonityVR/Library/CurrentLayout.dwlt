@@ -70,7 +70,7 @@ MonoBehaviour:
   m_MinSize: {x: 234, y: 492}
   m_MaxSize: {x: 10004, y: 14042}
   vertical: 1
-  controlID: 88
+  controlID: 51
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -367,7 +367,7 @@ MonoBehaviour:
     height: 439
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 
+    m_SelectedIDs: 22090000
     m_LastClickedID: 0
     m_ExpandedIDs: a0fbffff00000000
     m_RenameOverlay:
@@ -439,7 +439,7 @@ MonoBehaviour:
   m_LastProjectPath: C:\Users\eclip\Documents\PROYECTO_DAM\Unity\Unity\ZoonityVR
   m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 107}
+    scrollPos: {x: 0, y: 139}
     m_SelectedIDs: 582e0000
     m_LastClickedID: 11864
     m_ExpandedIDs: 00000000aa290000fe290000e22a0000ea2a0000842b0000962e00009a2e00009e2e0000aa2e00000230000004300000063000000830000000ca9a3bffffff7f
@@ -470,7 +470,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000aa290000fe290000e22a0000ea2a0000842b00009a2e00009e2e0000aa2e000002300000043000000630000008300000
+    m_ExpandedIDs: 00000000aa290000fe290000e22a0000ea2a0000842b0000962e00009a2e00009e2e0000aa2e000002300000043000000630000008300000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -557,9 +557,9 @@ MonoBehaviour:
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 0, y: 1.1499985, z: 4.9}
+    m_Target: {x: -0.39885998, y: 1.1503818, z: 4.905446}
     speed: 2
-    m_Value: {x: 0, y: 1.1499985, z: 4.9}
+    m_Value: {x: -0.39885998, y: 1.1503818, z: 4.905446}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -586,9 +586,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: -0.058774456, y: -0.0068911524, z: 0.00040586435, w: -0.99824744}
   m_Size:
-    m_Target: 3.8860052
+    m_Target: 4.3611374
     speed: 2
-    m_Value: 3.8860052
+    m_Value: 4.3611374
   m_Ortho:
     m_Target: 0
     speed: 2

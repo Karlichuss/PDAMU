@@ -92,7 +92,7 @@ public class NinioNoLogueado_Facade : MonoBehaviour, INinioNoLogueadoFacadeDeleg
         /// sino se intenta iniciar sesión.
         if (string.IsNullOrEmpty(nombre.text))
         {
-            MostrarError(error, "error");
+            MostrarError(error, JsonUtils.DeserializeIniciarSesionMenu().vacio);
         }
         else
         {
@@ -103,7 +103,7 @@ public class NinioNoLogueado_Facade : MonoBehaviour, INinioNoLogueadoFacadeDeleg
             }
             else
             {
-                MostrarError(error, "Error");
+                MostrarError(error, JsonUtils.DeserializeIniciarSesionMenu().nombreIncorrecto);
             }
         }
     }
@@ -176,7 +176,7 @@ public class NinioNoLogueado_Facade : MonoBehaviour, INinioNoLogueadoFacadeDeleg
         /// sino se intenta iniciar sesión.
         if (string.IsNullOrEmpty(nombre.text))
         {
-            MostrarError(error, "error");
+            MostrarError(error, JsonUtils.DeserializeRegistrarseMenu().vacio);
         }
         else
         {
@@ -187,7 +187,7 @@ public class NinioNoLogueado_Facade : MonoBehaviour, INinioNoLogueadoFacadeDeleg
             }
             else
             {
-                MostrarError(error, "Error");
+                MostrarError(error, JsonUtils.DeserializeRegistrarseMenu().nombreIncorrecto);
             }
         }
     }
@@ -302,8 +302,8 @@ public class NinioNoLogueado_Facade : MonoBehaviour, INinioNoLogueadoFacadeDeleg
     /// <param name="nombreJugador"> Recibe el nombre del jugador si se marco la casilla recordar sino se queda vacio.</param>
     public void ActualizarPlayerPref(string nombreJugador)
     {
-        GameManager.nombreJugaador = nombreJugador;
-        PlayerPrefs.SetString(GameManager.NOMBRE_JUGADOR, GameManager.nombreJugaador);
+        GameManager.nombreJugador = nombreJugador;
+        PlayerPrefs.SetString(GameManager.NOMBRE_JUGADOR, GameManager.nombreJugador);
     }
     #endregion
 }
