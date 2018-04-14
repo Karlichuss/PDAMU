@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/PrincipalMenu.unity
+- path: Assets/Scenes/RegistrarseMenu.unity
   isLoaded: 1
   isActive: 1

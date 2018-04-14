@@ -5,8 +5,8 @@ using UnityEngine.UI;
 
 public class ConfirmarRegistroAction : MonoBehaviour, IAction
 {
-    Text nombre;
-    GameObject error;
+    public Text nombre;
+    public GameObject error;
 
     public ConfirmarRegistroAction(Text nombre, GameObject error)
     {

@@ -164,6 +164,7 @@ GameObject:
   m_Component:
   - component: {fileID: 159704507}
   - component: {fileID: 159704508}
+  - component: {fileID: 159704509}
   m_Layer: 5
   m_Name: ChkRecordarNombre
   m_TagString: Untagged
@@ -232,10 +233,34 @@ MonoBehaviour:
   m_Group: {fileID: 0}
   onValueChanged:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 159704509}
+        m_MethodName: Execute
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Toggle+ToggleEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
   m_IsOn: 0
+--- !u!114 &159704509
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 159704506}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17b517d9e6ca5d041a9f3025688e2503, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  recordar: {fileID: 159704508}
+  nombre: {fileID: 329666347}
 --- !u!1 &179277752
 GameObject:
   m_ObjectHideFlags: 0
@@ -611,7 +636,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Nombre Incorrecto
+  m_Text: 
 --- !u!222 &512906388
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1259,7 +1284,7 @@ Mesh:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: pb_Mesh-47908
+  m_Name: pb_Mesh-45214
   serializedVersion: 8
   m_SubMeshes:
   - serializedVersion: 2
@@ -1910,6 +1935,7 @@ GameObject:
   - component: {fileID: 1921071157}
   - component: {fileID: 1921071156}
   - component: {fileID: 1921071155}
+  - component: {fileID: 1921071158}
   m_Layer: 5
   m_Name: BotonIniciarSesion
   m_TagString: Untagged
@@ -1974,7 +2000,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1921071156}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1921071158}
+        m_MethodName: Execute
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1921071156
@@ -2010,6 +2047,19 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1921071153}
+--- !u!114 &1921071158
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1921071153}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed42e65eab83638458b09560739ed3b6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nombre: {fileID: 329666347}
+  error: {fileID: 512906385}
 --- !u!1 &1987358685
 GameObject:
   m_ObjectHideFlags: 0

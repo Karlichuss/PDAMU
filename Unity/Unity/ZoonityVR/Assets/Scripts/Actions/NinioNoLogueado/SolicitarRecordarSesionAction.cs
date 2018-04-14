@@ -5,8 +5,8 @@ using UnityEngine.UI;
 
 public class SolicitarRecordarSesionAction : MonoBehaviour, IAction
 {
-    Toggle recordar;
-    Text nombre;
+    public Toggle recordar;
+    public Text nombre;
 
     public SolicitarRecordarSesionAction(Toggle recordar, Text nombre)
     {

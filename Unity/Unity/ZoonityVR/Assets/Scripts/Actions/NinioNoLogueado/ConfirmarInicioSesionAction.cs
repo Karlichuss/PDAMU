@@ -5,8 +5,8 @@ using UnityEngine.UI;
 
 public class ConfirmarInicioSesionAction : MonoBehaviour, IAction
 {
-    Text nombre;
-    GameObject error;
+    public Text nombre;
+    public GameObject error;
 
     public ConfirmarInicioSesionAction(Text nombre, GameObject error)
     {

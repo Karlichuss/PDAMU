@@ -70,4 +70,12 @@ public static class JsonUtils
         public string vacio;
         public string nombreIncorrecto;
     }
+
+    [Serializable]
+    public class DialogoNPC
+    {
+        public List<string> saludo;
+        public List<string> objetivo;
+        public List<string> exito;
+    }
 }
