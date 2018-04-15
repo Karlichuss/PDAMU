@@ -356,8 +356,8 @@
     <Compile Include="Assets\Scripts\Facade\Implementation\NinioLogueado_Facade.cs" />
     <Compile Include="Assets\Scripts\Facade\Implementation\NinioNoLogueado_Facade.cs" />
     <Compile Include="Assets\Scripts\Facade\Implementation\NPC_Facade.cs" />
-    <Compile Include="Assets\Scripts\Facade\Interfaces\NinioLogueadoFacadeDelegate.cs" />
-    <Compile Include="Assets\Scripts\Facade\Interfaces\NinioNoLogueadoFacadeDelegate.cs" />
+    <Compile Include="Assets\Scripts\Facade\Interfaces\INinioLogueadoFacadeDelegate.cs" />
+    <Compile Include="Assets\Scripts\Facade\Interfaces\INinioNoLogueadoFacadeDelegate.cs" />
     <Compile Include="Assets\Scripts\System\GameManager.cs" />
     <Compile Include="Assets\Scripts\Utils\JsonUtils.cs" />
     <Compile Include="Assets\VRKeyboard\Scripts\GazeRaycaster.cs" />

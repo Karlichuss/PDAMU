@@ -6,7 +6,7 @@ using UnityEngine.Networking;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
-public class NinioLogueado_Facade : MonoBehaviour
+public class NinioLogueado_Facade : MonoBehaviour, INinioLogueadoFacadeDelegate
 {
     #region SalirArea
     /// <summary>
@@ -187,7 +187,7 @@ public class NinioLogueado_Facade : MonoBehaviour
     /// <param name="conversacion"></param>
     /// <param name="posicion"></param>
     /// <param name="dialogo"></param>
-    public void SeguirConversacion(List<string> conversacion, int posicion, Text dialogo)
+    public void SeguirConversacion(List<String> conversacion, int posicion, Text dialogo)
     {
         if (posicion < conversacion.Capacity)
         {
@@ -205,7 +205,7 @@ public class NinioLogueado_Facade : MonoBehaviour
     /// <param name="conversacion">Conversación completa del NPC</param>
     /// <param name="dialogo">Texto que va a mostrar el bloque de diálogo</param>
     /// <param name="jugador">Avatar del niño</param>
-    public void EmpezarConversacion(List<string> conversacion, Text dialogo, GameObject jugador)
+    public void EmpezarConversacion(List<String> conversacion, Text dialogo, GameObject jugador)
     {
         dialogo.gameObject.SetActive(true);
         dialogo.text = conversacion[0];
@@ -222,6 +222,30 @@ public class NinioLogueado_Facade : MonoBehaviour
     {
         dialogo.gameObject.SetActive(false);
         DesbloquearMovimiento(jugador);
+    }
+    #endregion
+    #region Caminar
+    public void Caminar()
+    {
+
+    }
+    #endregion
+    #region Saltar
+    public void Saltar()
+    {
+
+    }
+    #endregion
+    #region MirarAnimalObjeto
+    public void MirarAnimalObjeto()
+    {
+
+    }
+    #endregion
+    #region DejardeMirarAnimnalObjeto
+    public void DejarDeMirarAnimalObjeto()
+    {
+
     }
     #endregion
 }
